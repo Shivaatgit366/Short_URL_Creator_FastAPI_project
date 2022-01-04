@@ -1,0 +1,4 @@
+there is a different command for running the uvicorn server in pycharm.
+
+Fastapi documentation has the command "uvicorn main:app --reload". But, this command doesn't work.
+So, this command "uvicorn.run("project:app", reload=True)" should be used. Here, we use run() function with arguments.
